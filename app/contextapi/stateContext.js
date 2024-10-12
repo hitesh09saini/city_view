@@ -47,10 +47,6 @@ export const StateProvider = ({ children }) => {
     };
 
     useEffect(() => {
-        if (isInitialRender.current) {
-            isInitialRender.current = false;
-            return;
-        }
         handleGetPosts();
     }, [page]);
 
