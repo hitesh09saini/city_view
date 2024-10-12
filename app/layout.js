@@ -61,23 +61,23 @@ export const metadata = {
     "महवा संस्कृति",
     "महवा स्थानीय त्योहार",
   ],
-  // openGraph: {
-  //   title: "Explore Mahwa - A Visual Journey",
-  //   description:
-  //     "A gallery of Mahwa's culture, landscapes, and festivals like Dussehra, Navratri, and Diwali, through images uploaded by locals and visitors.",
-  //   url: "https://yourwebsite.com",
-  //   siteName: "Mahwa City Gallery",
-  //   images: [
-  //     {
-  //       url: "/og-image.png",  
-  //       width: 800,
-  //       height: 600,
-  //       alt: "Mahwa city scenic view during festival season",
-  //     },
-  //   ],
-  //   locale: "en_US",
-  //   type: "website",
-  // },
+  openGraph: {
+    title: "दशहरा 2024 - महवा के बारे में",
+    description:
+      "dashahra h,  sare bhai is website pr apne ache ache photo dale jisse sari duniya ko pta chale hmare mahwa ke bare m - दशहरा के इस खास मौके पर महवा के बारे में जानें और हमारे अद्भुत फोटोज़ के साथ जुड़ें।",
+    url: "https://city-view-iota.vercel.app",
+    siteName: "Mahwa City Gallery",
+    images: [
+      {
+        url: "/og-image.png",  
+        width: 800,
+        height: 600,
+        alt: "Mahwa city scenic view during festival season",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 
