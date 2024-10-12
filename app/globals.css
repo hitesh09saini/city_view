@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.gallery {
+    columns: 300px;
+  }
+  
+  .gallery-item {
+    width: 100%; 
+    margin-bottom: 1rem; /* Adds space between gallery items vertically */
+    position: relative; /* Helps with positioning of the title overlay */
+  }
+  
+  .gallery-item img {
+    width: 100%; 
+    object-fit: cover;
+    border-radius: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .gallery-item .title {
+    position: absolute;
+    width: 100%;
+    bottom: 0px; 
+    left: 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(53, 53, 53, 0.178) 100%);
+    color: white; /* Makes the text readable */
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+    font-weight: bold;
+  }
+  
