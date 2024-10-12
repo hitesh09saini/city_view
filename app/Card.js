@@ -34,7 +34,7 @@ const Card = ({ item }) => {
 
     return (
         <div className="gallery-item">
-            <img loading='lazy' src={url.base_url + item?.post} alt={item?.title} />
+            <img loading='lazy' src={item?.post} alt={item?.title} />
             <div className='title'>
                 {item?.title}
             </div>
